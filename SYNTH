@@ -1,0 +1,25 @@
+S
+SQ
+TRI
+BLIP
+PM (f2=100, indx=10)
+FBS (index=1, fb=0, im1=1, im2=1)
+SAW
+CILIA
+
+GREY
+PINK
+BROWN
+
+LFD
+LFD0
+FHN (dust1=8, dust2=13, dust3=5, dust4=3)
+NZRNG (change=0.5, chance=0.5, f=17)
+GG (gf1=0.25)
+LCGC (mul=500, add=1000, f=17)
+LCGN (mul=500, add=1000, f=17)
+
+td:
+DGEOM
+L-SYS
+FSM
