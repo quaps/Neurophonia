@@ -1,0 +1,28 @@
+d1 $ f "<[11160 11167]>(9,3)" # s "S" # sustain "0.001"
+
+d1 $ stack [
+f "500(5,3) 1000(2,3)" # pan 0.1,
+f "500(2,3) 1000(5,3)" |+| f (choose [1,3,5,7,13,19,37]) # pan 0.9
+] # s "S" # sustain "0.1"
+
+d2 $ stack [
+f (choose [60,167,389]) # pan (choose [0.1,0.9]),
+f (choose [60,67,89]) # pan (choose [0.01,0.99])
+] # s (choose ["S","SQ","GG"]) # sustain (choose [0.1,0.1])
+
+
+-- crying spectrum / tetrahedral spectrum screamer /
+d3 $ stack [
+$ rev $ f tetranacci # s "S" # sustain "0.002 0.1 0.08 0.005 0.007" # pan (choose [0.1,0.9,0.5])
+]
+
+d1 $ whenmod 13 8 (const $ f "60([3 5 13]/3,8)" # s "S" # shape "0.5" # crush "7 3") $ f "67([5 3 13]/3,8)" # s (choose ["ZOW","SQ"])
+
+d2 $ f "<[589, 596]>(3,5) <[1590, 1597]>(5,7)" # s "FBS" # pan "0.1 0.9" # index "0.5" # fb "0.1" # im1 "1 23" # im2 "3 34 55" # sustain "0.1"
+
+d2 $ every 3 (slow (choose [1,1,6,2,4,6,6,2,18,4,10,6,12,6,12,2,8,18,18,4,6,10,22,6,20,12,54,6,28,12,10,2,30,8,12,18,36,18,12,4,20,6,14,10,36,22,46,6])) $ f tetranacci # s (choose ["FBS","GG","BROWN"]) # sustain "0.07"
+
+d2 $ f (scale 400 800 $ "100 150") # s "S"
+d2 $ f scale 1 1.5 tetranacci # s "S"
+
+d1 $ density magicSQ $ sound "bd [sn:2 mt]/2"
