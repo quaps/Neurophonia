@@ -8,3 +8,23 @@ Broken up into stylistic 'characters', Neurophonia uses the SuperCollider synthe
 
 Also included in this repo is the 'geometrism' library: a library of patterns harvested from the Online Encyclopedia of Integer Sequences. Generally sequences taken from geometric objects or abstractions, these can be scaled and mapped as the user wishes. In the future I hope to distill this into an autonomous project.
 
+//
+
+Otozigguratz
+Series exploring evoked otoacoustic emissions: sounds that are emitted from the inner ear. Influenced in style by the rapid, arpeggiated stepping patterns of Amacher's Synaptic Island.
+
+The Second Order
+Series exploring slightly detuned octaves that create second order beat frequencies. Stylistic emphasis on long form drone.
+
+Impulsion
+Simple implementation of granular synthesis.
+
+Coiled Coils
+Experiments with detuned timing patterns. E.g. the types of tuning one would find with beat frequencies, but applied to discreet temporal, rhythmic patterns.
+
+CryptoSounds
+Experiments with randomness.
+
+CZ-SI
+Utilizes mathermatical forms of caesium & silicon to create latticed sonic characters.
+
