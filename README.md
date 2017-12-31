@@ -8,6 +8,13 @@ Broken up into stylistic 'characters', Neurophonia uses the SuperCollider synthe
 
 Also included in this repo is the 'geometrism' library: a library of patterns harvested from the Online Encyclopedia of Integer Sequences. Generally sequences taken from geometric objects or abstractions, these can be scaled and mapped as the user wishes. In the future I hope to distill this into an autonomous project.
 
+NB: This is a work in progress, & far from complete. 
+To Do:
+- Fix the geometrism module path/loading
+- Clean up directory organization
+- Upload video & images of software in use
+- More ...
+
 //
 
 Otozigguratz
